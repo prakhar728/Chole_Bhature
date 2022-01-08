@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {getBalance } = require('./../../web3Wrapper/index');
+const {getBalance } = require('../web3wrapper/index');
 router.post('/',(req,res)=>{
     getBalance(req.body.userAddress).then(resp=>{
         console.log(`Here\'s the balance of the aaccount address ${req.body.userAddress} balance is ${resp}`);
