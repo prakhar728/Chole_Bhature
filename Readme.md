@@ -1,1 +1,2 @@
-Initial Project Setup
+1. The project has following folder structure
+ * [Blockchain](./blockchain) - Contains the Smart contract and it's migration feature. Visit the [Readme](./blockchain/Readme.md) to setup in your local machine or play around with the code
