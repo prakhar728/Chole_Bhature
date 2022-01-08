@@ -69,8 +69,8 @@ function Index() {
                     BHATURE WALLET
                 </div>
                 <div className='addressHolder'>
-                    {gotAccount && `${address}`}
-                    {!gotAccount && <button onClick={connectTotheWallet}>Connect to your Wallet</button>}
+                    {gotAccount && <p className='addressBar'>${address} </p>}
+                    {!gotAccount && <button onClick={connectTotheWallet} className='connectButton'>Connect to your Wallet</button>}
                     {error}
                 </div>
             </div>
@@ -83,7 +83,7 @@ function Index() {
                     <input value={amount} onChange={(e) => setamount(e.target.value)} />
                     <label>Enter the address</label>
                     <input value={sendAddress} onChange={(e) => setsendAddress(e.target.value)} />
-                    <button type="submit" onClick={handleSubmit}>SEND</button>
+                    <button type="submit" onClick={handleSubmit} className='sendButton'>SEND</button>
                 </form>
             </div>
             <div>

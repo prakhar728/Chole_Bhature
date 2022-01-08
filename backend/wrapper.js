@@ -6,7 +6,7 @@ dotenv.config();
 // Sign up for a free dedicated RPC URL at https://rpc.maticvigil.com/ or other hosted node providers.
 const web3 = new Web3('https://rpc-mumbai.maticvigil.com/v1/8672801189d10b2b2b6d4a3fae5c9e166a94c96f');
 
-const contract = new web3.eth.Contract(abiPresent.abi, '0x12E0F4C28F8B4D043e42C80b3Eb8ea85B65F5F22');
+const contract = new web3.eth.Contract(abiPresent.abi, '0x17BDD4610331654e7fC1443BA42d15DD00394C5a');
 const account = web3.eth.accounts.privateKeyToAccount('0x' + 'cc79ce1872b8d561e58179f55fec6a7e77b1a69aad035670306f5aaec3fdf3bd');
 ;
 web3.eth.accounts.wallet.add(account);
