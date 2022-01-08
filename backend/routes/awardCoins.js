@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {awardCoin } = require('../web3wrapper/index');
+const {awardCoin } = require('../wrapper');
 
 router.post('/',(req,res)=>{
     awardCoin(req.body.userAddress ,req.body.numberofToken).then(
