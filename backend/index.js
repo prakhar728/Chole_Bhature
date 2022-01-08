@@ -11,7 +11,6 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/healthCheck',healthCheckRoute);
 app.use('/balanceOf',balanceOfRoute);
 app.use('/awardCoin',awardCoinRoute);
-app.use('/transferCoin',transferCoinRoute);
 app.listen(PORT,()=>{
     console.log('Server running at ',PORT);
 });

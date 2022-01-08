@@ -3,9 +3,16 @@ const router = express.Router();
 const {awardCoin } = require('./../../web3Wrapper/index');
 
 router.post('/',(req,res)=>{
-    console.log(awardCoin(req.body.address,req.body.amount));
-    console.log(`The coins awarded are ${req.body.numberofToken} to ${req.body.userAddress}`);
-    res.send(`The coins awarded are ${req.body.numberofToken} to ${req.body.userAddress}`);
+    awardCoin(req.body.userAddress ,req.body.numberofToken).then(
+        resp=>
+       { console.log(resp,'Awarded succesfully');
+           res.status(200).send(resp);}
+    )
+    .catch(err=>
+    { console.log('Error Found');
+           console.log(err);
+           res.status(400).send(err)})
+    
 })
 
 module.exports= router;
