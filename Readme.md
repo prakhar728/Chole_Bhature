@@ -21,5 +21,9 @@ A Fitness Mobile App - . That aims to not only track your steps, calories burnt 
 # FUTURE SCOPE OF THE APP
 
 Since the launch of the token currency. The Dapp will also include a separate NFT marketplace to give out tickets to different challenges hosted in the fitness app, for people to mint their own nfts on the platform using **Chole Bhature Coin** as a mode of payment.
+
+# TEST THE CRYPTO WALLET
+
+You can view the Crypto Wallet app through [this](https://cholebhaturewallet.herokuapp.com/)! Just make sure you have either metamask extension or are visiting through metamask mobile browser.
  
  
