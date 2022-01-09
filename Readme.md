@@ -25,5 +25,7 @@ Since the launch of the token currency. The Dapp will also include a separate NF
 # TEST THE CRYPTO WALLET
 
 You can view the Crypto Wallet app through [this](https://cholebhaturewallet.herokuapp.com/)! Just make sure you have either metamask extension or are visiting through metamask mobile browser.
+
+## THE VIDEO [DEMO](https://youtu.be/3BDSyjI70jI)
  
  
