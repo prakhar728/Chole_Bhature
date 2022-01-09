@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380443765577",
+    "project_id": "dot-slash-5adad",
+    "storage_bucket": "dot-slash-5adad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380443765577:android:e390662bc738d272ed8898",
+        "android_client_info": {
+          "package_name": "com.example.cholebhature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380443765577-tfv0lnl363e9n2ublit4vbo78hqbcbnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbrd7vDyPqID_QNhtEMV2yKMm1D1h6zQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380443765577-tfv0lnl363e9n2ublit4vbo78hqbcbnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
